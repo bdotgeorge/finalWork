@@ -26,6 +26,9 @@ internal class Program
         Assistant ass = new Assistant();
         string[] mas = { "123456", "2", ":-)", "21", "123", "333" };
         string[] result = getWorldLength(mas);
-        ass.PrintArray(result);
+        if(result.Length != 0)
+            ass.PrintArray(result);
+        else
+            Console.Write($"not found word\n");
     }
 }
