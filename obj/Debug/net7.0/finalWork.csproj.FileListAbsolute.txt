@@ -1,0 +1,15 @@
+G:\ProjectCode\Education\GB_Education\finalWork\bin\Debug\net7.0\finalWork.exe
+G:\ProjectCode\Education\GB_Education\finalWork\bin\Debug\net7.0\finalWork.deps.json
+G:\ProjectCode\Education\GB_Education\finalWork\bin\Debug\net7.0\finalWork.runtimeconfig.json
+G:\ProjectCode\Education\GB_Education\finalWork\bin\Debug\net7.0\finalWork.dll
+G:\ProjectCode\Education\GB_Education\finalWork\bin\Debug\net7.0\finalWork.pdb
+G:\ProjectCode\Education\GB_Education\finalWork\obj\Debug\net7.0\finalWork.csproj.AssemblyReference.cache
+G:\ProjectCode\Education\GB_Education\finalWork\obj\Debug\net7.0\finalWork.GeneratedMSBuildEditorConfig.editorconfig
+G:\ProjectCode\Education\GB_Education\finalWork\obj\Debug\net7.0\finalWork.AssemblyInfoInputs.cache
+G:\ProjectCode\Education\GB_Education\finalWork\obj\Debug\net7.0\finalWork.AssemblyInfo.cs
+G:\ProjectCode\Education\GB_Education\finalWork\obj\Debug\net7.0\finalWork.csproj.CoreCompileInputs.cache
+G:\ProjectCode\Education\GB_Education\finalWork\obj\Debug\net7.0\finalWork.dll
+G:\ProjectCode\Education\GB_Education\finalWork\obj\Debug\net7.0\refint\finalWork.dll
+G:\ProjectCode\Education\GB_Education\finalWork\obj\Debug\net7.0\finalWork.pdb
+G:\ProjectCode\Education\GB_Education\finalWork\obj\Debug\net7.0\finalWork.genruntimeconfig.cache
+G:\ProjectCode\Education\GB_Education\finalWork\obj\Debug\net7.0\ref\finalWork.dll
