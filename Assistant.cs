@@ -4,7 +4,7 @@ public class Assistant
 {
     public void PrintArray(Array massive)
     {
-       bool stop = true;
+        bool stop = true;
         try
         {
             stop = true;
@@ -196,33 +196,29 @@ public class Assistant
     public static string[] TakeConsoleStringToArray(string message = "Enter word")
     {
         Console.WriteLine(message);
-        char[] separators = new char[] { ',', ' '};
+        char[] separators = new char[] { ',', ' ' };
         string[] consoleString = Console.ReadLine()!.Split(separators, StringSplitOptions.RemoveEmptyEntries).ToArray();
         return consoleString;
     }
 
-    public static string[] getWorldLength(ref string[] mas, int wordSize = 3)
+    public static string[] getWorldLength(ref string[] mas, int stringSize = 3)
     {
         int countWord = 0;
-        wordSize++;
+        stringSize++;
         int sizeArray = mas.Length;
-        if (sizeArray % 2 != 0)
-        {
-            if (mas[sizeArray / 2].Length < wordSize)
-                countWord++;
-        }
+        if (sizeArray % 2 != 0 && mas[sizeArray / 2].Length < stringSize) countWord++;
         for (int i = 0; i < sizeArray / 2; i++)
         {
-            if (mas[i].Length < wordSize)
+            if (mas[i].Length < stringSize)
                 countWord++;
-            if (mas[sizeArray - 1 - i].Length < wordSize)
+            if (mas[sizeArray - 1 - i].Length < stringSize)
                 countWord++;
         }
         string[] result = new string[countWord];
         countWord = 0;
-        for (int i = 0; i < sizeArray; i++)
+        for (int i = 0; i < sizeArray && countWord < result.Length; i++)
         {
-            if (mas[i].Length < wordSize)
+            if (mas[i].Length < stringSize)
             {
                 result[countWord] = mas[i];
                 countWord++;
